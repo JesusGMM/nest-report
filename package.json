@@ -20,11 +20,15 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@kurkle/color": "^0.3.2",
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^10.0.0",
     "@prisma/client": "^5.21.1",
+    "axios": "^1.7.7",
+    "html-to-pdfmake": "^2.5.13",
+    "jsdom": "^25.0.1",
     "pdfmake": "^0.2.14",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
@@ -34,7 +38,9 @@
     "@nestjs/schematics": "^10.0.0",
     "@nestjs/testing": "^10.0.0",
     "@types/express": "^5.0.0",
+    "@types/html-to-pdfmake": "^2.4.4",
     "@types/jest": "^29.5.2",
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^20.3.1",
     "@types/pdfmake": "^0.2.9",
     "@types/supertest": "^6.0.0",
